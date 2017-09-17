@@ -1,0 +1,61 @@
+.mybox {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    margin: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 800px;
+}
+
+.mysmallbox1 {
+    text-align: center;
+    background: rgba(15, 153, 0, 0.70);
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mysmallbox2 {
+    text-align: center;
+    background: rgba(0, 56, 198, 0.70);
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mysmallbox3 {
+    text-align: center;
+    background: rgba(176, 0, 0, 0.70);
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mysmallbox4 {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.70);
+    color: #ffffff;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button {
+    background-color: rgba(0, 0, 0, 0.4);
+    border: none;
+    color: white;
+    padding: 3px 10px;
+    text-align: center;
+    border: 1px solid white;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+body{
+    background-image: url('weather.jpg');
+    background-size: cover;
+    color: white;
+    text-shadow: 1px 1px 2px #000000;
+}
