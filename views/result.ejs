@@ -1,0 +1,52 @@
+<html>
+        <head>
+                <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">    
+                <link rel="stylesheet" href="assets/style.css">   
+                
+            </head>
+        <body>
+                <h1 style="text-align:center; margin-top:100px;">
+                        What's up people from <%=fulladdr %>?!
+                </h1>
+    
+                <div class="row" style="margin-top: 40px; margin-left:auto; margin-right:auto">
+                    <div class="col-md-1"></div>
+                    <div class="col-md-3 mysmallbox1">
+                            <strong>GEOLOGICAL INFO</strong><br/><br/>
+                            Place: <%= fulladdr %><br/>
+                            Latitute: <%= lat %> <br/>
+                            Longitude: <%= lng %> <br/>
+                            Time Zone: <%= timezone %> <br/><br/>
+                    </div>
+                    <div class="col-md-4 mysmallbox2">
+                            <strong>CURRENT INFO</strong> <br/><br/>
+                            Weather Summary: <%= csummary %> <br/>
+                            Temperature: <%= ctemp %> <br/>
+                            Temperature Feels Like: <%= catemp %> <br/>
+                            Humidity: <%= chumidity %> <br/>
+                            Pressure: <%= cpressure %> <br/>
+                            Windspeed: <%= cwindspeed %> <br/>
+                            Cloud Cover: <%= ccloudcover %> <br/>
+                            Precipitation: <%= cpreci %> <br/>                        
+                    </div>
+                    <div class="col-md-3 mysmallbox3">
+                            <strong>
+                                    HOURLY SUMMARY <br/><br/>
+                                </strong>
+                                <%= hrsummary %>
+                                <br/><br/>
+                                <strong>
+                                    DAILY SUMMARY <br/><br/>
+                                </strong>
+                                <%= dlsummary %>                            
+                        </div>
+                </div>
+                <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10 mysmallbox4">
+                            <p><%= placeSummary %></p>
+                        </div>
+                </div>
+            </script>
+        </body>
+    </html>
